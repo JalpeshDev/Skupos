@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts.scss";
+
+body {
+    font-family: 'Lota Grotesque';
+    @apply bg-white;
+}
+
+
+.slide:after {
+    content: "";
+    background-image: url("../images/coins.png");
+    width: 330px;
+    display: block;
+    position: absolute;
+    left: 120px;
+    height: 140px;
+    background-repeat: no-repeat;
+    top: 207px;
+}
+
+.or:after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.or:before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+@media only screen and (max-width:768px){
+.slide:after 
+{
+    display: none;
+}
+}
+
+
+@media only screen and (max-width:320px)
+{
+    .internet {
+        padding: 5px;
+    }
+
+    .remote {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Lota Grotesque';
+    src: local('Lota Grotesque Bold'),
+        url("../fonts/los_andes__lota_grotesque_bold-webfont.woff") format('woff'),
+        url("../fonts/los_andes__lota_grotesque_bold-webfont.woff2") format(('woff2'));
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Lota Grotesque';
+    src: local('Lota Grotesque SemiBold'),
+        url("../fonts/los_andes__lota_grotesque_semi_bold-webfont.woff") format('woff'),
+        url("../fonts/los_andes__lota_grotesque_semi_bold-webfont.woff2") format(('woff2'));
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lota Grotesque';
+    src: local('Lota Grotesque Regular'),
+        url("../fonts/los_andes__lota_grotesque_regular-webfont.woff") format('woff'),
+        url("../fonts/los_andes__lota_grotesque_regular-webfont.woff2") format(('woff2'));
+    font-weight: 400;
+}
